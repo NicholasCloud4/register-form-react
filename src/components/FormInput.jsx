@@ -5,9 +5,9 @@ function FormInput(props) {
         <div className="formInput">
             <label htmlFor=""></label>
             <input
+                name={props.name}
                 type="text"
                 placeholder={props.placeholder}
-                ref={props.refer}
             />
         </div>
     );
